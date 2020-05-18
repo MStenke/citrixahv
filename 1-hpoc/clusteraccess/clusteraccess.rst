@@ -11,6 +11,13 @@ Die Lab Umgebung stehen physisch in der USA. Um auf diese zugreifen zu können w
 
 Die Nutanix Datacenter stehen i.d.R. in einem von 2 unterschiedlichen Datacentern in der USA welches Sie an Ihrer VPN Benutzerkennung erkennen können: **PHX** = Phoenix Datacenter in Arizona oder **RTP** = Durham Datacenter in North Carolina. Je nach Verbindungsart müssen Sie ggf. Datacenter spezifische Verbindungsparameter verwenden.
 
+Benutzerkennung auswählen
++++++++++++++++++++++++++
+Die Lab-Zugangsdaten können Sie hier einsehen: https://docs.google.com/spreadsheets/d/1asRAkBsFX0j_fvTCDiDsP-N1B7yQBbiGSwYZz8SqbNw/edit#gid=0
+
+.. note::
+   Bitte hinterlegen Sie dort kurz welche Benutzerkennung Sie jeweils verwenden, sodass diese nicht doppelt verwendet wird und Sie sich gegenseitig aus der Session werfen.
+
 Frame VDI Client
 ++++++++++++++++
 
