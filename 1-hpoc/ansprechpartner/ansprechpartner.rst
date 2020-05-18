@@ -21,7 +21,7 @@ Der Virtual Solutions Workshop ist zum Ausprobieren und "Spielen" gedacht, sodas
    * - **Senior Systems Engineer EUC**
      - **Senior Systems Engineer**
    * - Seit Februar 2019 bei Nutanix
-     - Seit September 2018 bei Nutanix
+     - Seit Dezember 2018 bei Nutanix
    * - +49 160 / 6450447
      - +49 160 / 8540279
    * - gaby.grau@nutanix.com
