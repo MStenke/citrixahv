@@ -9,8 +9,6 @@ Zugangs Übersicht
 
 Die Lab Umgebung stehen physisch in der USA. Um auf diese zugreifen zu können wird ein Remote Zugriff benötigt. Hierfür stehen 3 Optionen zur Auswahl: **Nutanix Frame VDI**, **Pulse VPN** *oder* **Parallel VDI Zugang.**
 
-Die Nutanix Datacenter stehen i.d.R. in einem von 2 unterschiedlichen Datacentern in der USA welches Sie an Ihrer VPN Benutzerkennung erkennen können: **PHX** = Phoenix Datacenter in Arizona oder **RTP** = Durham Datacenter in North Carolina. Je nach Verbindungsart müssen Sie ggf. Datacenter spezifische Verbindungsparameter verwenden.
-
 Benutzerkennung auswählen
 +++++++++++++++++++++++++
 Die Lab-Zugangsdaten können Sie hier einsehen: https://docs.google.com/spreadsheets/d/1asRAkBsFX0j_fvTCDiDsP-N1B7yQBbiGSwYZz8SqbNw/edit#gid=0
@@ -53,9 +51,7 @@ Pulse Secure VPN Client
 
 
 1.	Falls der Client bereits installiert ist bitte zu  Schritt 5 springen.
-2.	Um den Client herunter zu laden bitte an folgender Website unter Verwendung der bereitgestellten Zugangsdaten anmelden: 
-- **PHX** = https://xlv-uswest1.nutanix.com oder 
-- **RTP** = https://xlv-useast1.nutanix.com 
+2.	Um den Client herunter zu laden bitte an folgender Website unter Verwendung der bereitgestellten Zugangsdaten anmelden: https://xlv-blr.xlabs.nutanix.com/ 
 
     .. figure:: images/pulsewebsite.png
 
@@ -65,12 +61,11 @@ Pulse Secure VPN Client
 
 4.	Nachdem der Client installiert wurde, können Sie sich von der Web GUI abmelden.
 
-5.	Lokal installierten Client öffnen und eine neue Verbindung mit folgenden Parametern für PHX oder RTP hinzufügen:
+5.	Lokal installierten Client öffnen und eine neue Verbindung mit folgenden Parametern hinzufügen:
 
 - **Type**: "Policy Secure (UAC) or Connection Server (VPN)""
 - **Name**: Nutanix HPOC VPN 
-- **Server URL für PHX**: https://xlv-uswest1.nutanix.com
-- **Server URL für RTP**: https://xlv-useast1.nutanix.com
+- **Server URL**: https://xlv-blr.xlabs.nutanix.com
 
 6.	Sobald der Client eingerichtet ist mit den bereitgestellten Zugangsdaten verbinden.
 
@@ -82,7 +77,7 @@ Parallels VDI Zugang
 .. note::
   Die deutlich empfohlene Lösung um auf die HPoC Umgebung zuzugreifen ist die Frame VDI oder Pulse VPN Verbindung, da die Parallel VDI Verbindung i.d.R. deutlich langsamer ist. Für die Fälle in denen aufgrund diverser Gründe (u.a. fehlende lokale Admin Rechte) keine Pulse VPN Verbindung möglich ist, besteht alternativ noch die Option mittels Parallel VDI auf die Umgebung (u.a. auch ohne Installation eines lokalen Clients) zuzugreifen.
 
-1.	Unter Verwendung der bereitgestellten Zugangsdaten bitte an folgender Website anmelden: https://xld-uswest1.nutanix.com (für PHX) oder https://xld-useast1.nutanix.com (für RTP)
+1.	Unter Verwendung der bereitgestellten Zugangsdaten bitte an folgender Website anmelden: https://xld-blr.xlabs.nutanix.com 
 
    .. figure:: images/parallel-website.png
 
