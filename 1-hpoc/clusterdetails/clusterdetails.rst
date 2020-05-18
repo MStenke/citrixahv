@@ -1,14 +1,14 @@
 .. _clusterdetails:
 
 ------------------------
-HPoC Cluster Details
+Workshop Cluster Details
 ------------------------
 
 Cluster Hardware Details
 ++++++++++++++++++++++++
 
 
-**Für den Hosted PoC wurde ein System mit 4 Nodes in 2 Höheneinheiten reserviert:**
+**Für den Virtual Solutions Workshop wurden zwei Systeme mit 4 Nodes in 2 Höheneinheiten reserviert:**
 
 .. figure:: images/cluster3060g5a.png
 
@@ -77,13 +77,13 @@ Die folgende Tabelle führt die standardmäßig hinterlegten Zugangsdaten für d
     - ADMIN
   * - **Prism Element Web**
     - admin
-    - ntnx4Gratz!
+    - citrix4AHV!
   * - **Prism Element SSH**
     - nutanix
-    - ntnx4Gratz!
+    - citrix4AHV!
   * - **Prism Central Web**
     - admin
-    - ntnx4Gratz!
+    - citrix4AHV!
   * - **Prism Central SSH**
     - nutanix
     - nutanix/4u
