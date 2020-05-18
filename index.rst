@@ -1,8 +1,8 @@
-.. title:: Nutanix Bootcamp PoC
+.. title:: Nutanix Virtual Solutions Workshop
 
 .. toctree::
    :maxdepth: 2
-   :caption: Bootcamp PoC Infos
+   :caption: Workshop Infos
    :hidden:
 
    1-hpoc/ansprechpartner/ansprechpartner
@@ -11,7 +11,7 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: End User Computing - Citrix
+  :caption: Citrix EUC - Labs
   :name: _euccitrix
   :hidden:
 
@@ -36,14 +36,11 @@
 
 .. _getting_started:
 
---------------------------------------------------------------
-Herzlich willkommen auf dem Nutanix Virtual Solutions Workshop
---------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Herzlich willkommen auf dem Nutanix Virtual Solutions Workshop: Citrix und Nutanix AHV
+--------------------------------------------------------------------------------------
 
 .. figure:: images/Intro.png
-
-Citrix und Nutanix AHV
-++++++++++++++++++++++
 
 Herzlich Willkommen beim End User Computing Workshop mit Citrix Apps & Desktops. 
 
