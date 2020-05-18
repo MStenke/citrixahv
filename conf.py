@@ -19,7 +19,7 @@ import sphinx_copybutton
 
 # -- Project information -----------------------------------------------------
 
-project = 'Citrix AHV Workshop'
+project = 'Citrix & Nutanix AHV Workshop'
 copyright = '2020, Nutanix Germany GmbH | '
 author = 'Martin Stenke'
 

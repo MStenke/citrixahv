@@ -4,21 +4,25 @@
 Ihr Ansprechpartner
 ---------------------
 
-Ihr Ansprechpartner hilft Ihnen bei Fragen und oder Problemen während des Hosted PoC. 
+Ihre heutigen Nutanix *Drill Instructoren* führen Sie durch den Tag!
 
 .. figure:: images/bootcamp.png
 
-Der Hosted PoC ist zum Ausprobieren und "Spielen" gedacht, sodass Sie sich einen guten ersten Überblick verschaffen können. 
-Wenn es doch mal klemmt, sind Sie aber nicht alleine. Also keine Angst davor sich zu melden / durchzuklingeln:
+Das Virtual Bootcamp ist zum Ausprobieren und "Spielen" gedacht, sodass Sie sich einen guten ersten Überblick verschaffen können. Wenn es doch mal klemmt, sind Sie aber nicht alleine. Also keine Angst davor sich zu melden:
 
 .. list-table::
-   :widths: 40
+   :widths: 40 40
    :header-rows: 1
 
+   * - **Gaby Grau**
+   * - .. figure:: images/ggrau.png
+   * - **Senior Systems Engineer EUC**
+   * - Seit Februar 2019 bei Nutanix
+   * - +49 160 / 6450447
+   * - gaby.grau@nutanix.com
    * - **Martin Stenke**
    * - .. figure:: images/MStenke.png
    * - **Senior Systems Engineer**
-   * - Leonberg, Baden-Wuerttemberg
    * - Seit September 2018 bei Nutanix
    * - +49 160 / 8540279
    * - martin.stenke@nutanix.com

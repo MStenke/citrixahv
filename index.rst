@@ -36,9 +36,9 @@
 
 .. _getting_started:
 
---------------------------------------------------------------------------------------
-Herzlich willkommen auf dem Nutanix Virtual Solutions Workshop: Citrix und Nutanix AHV
---------------------------------------------------------------------------------------
+----------------------------------------------------------
+Nutanix Virtual Solutions Workshop: Citrix und Nutanix AHV
+----------------------------------------------------------
 
 .. figure:: images/Intro.png
 
