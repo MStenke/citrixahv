@@ -74,8 +74,10 @@ Infrastruktur IPs
      - 10.136.228.36
 
 
+**Service IP's**
+
 .. list-table::
-   :widths: 33 33 33
+   :widths: 30 30 30
    :header-rows: 1
 
   * - Services
@@ -92,7 +94,7 @@ Infrastruktur IPs
 	- 10.136.228.39
   * - **Active Directory**
     - 10.136.227.41
-	- 10.136.228.39
+	- 10.136.228.41
 
 
 Die folgende Tabelle führt die standardmäßig hinterlegten Zugangsdaten für die Umgebung auf (falls andere zum Einsatz kommen sollten wird dies gesondert aufgeführt):

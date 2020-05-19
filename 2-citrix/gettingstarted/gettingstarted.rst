@@ -13,6 +13,17 @@ Welcome to the End User Computing bootcamp featuring Citrix Apps & Desktops. Thi
 - Native microsegmentation with Nutanix Flow to secure a virtual desktop environment
 - Rich monitoring and automation capabilities with Prism Ops
 
+**Browse to your Prism Central Instance**
+
+.. list-table::
+   :widths: 30 30
+   :header-rows: 0
+
+   * - Bootcamp Cluster A
+     - Bootcamp Cluster B
+   * - https://10.136.228.39:9440/
+     - https://10.136.228.39:9440/
+
 
 Deploying your Windows Tools VM
 +++++++++++++++++++++++++++++++
