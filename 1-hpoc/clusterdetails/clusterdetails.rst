@@ -73,7 +73,7 @@ Infrastruktur IPs
      - 10.136.228.36
 
 .. list-table::
-  :widths: 20 20 20
+  :widths: 22 22 22
   :header-rows: 1
 
   * - Services
