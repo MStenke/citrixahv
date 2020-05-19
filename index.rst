@@ -28,7 +28,7 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Optional Nutanix Grundlagen
+  :caption: Optional NTNX Basics
   :hidden:
 
   3-aosahv/lab_nutanix_tech_overview/lab_nutanix_tech_overview
