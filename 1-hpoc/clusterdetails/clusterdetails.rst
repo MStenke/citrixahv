@@ -77,7 +77,7 @@ Infrastruktur IPs
 **Service IP's**
 
 .. list-table::
-  :widths: 20 10 10
+  :widths: 15 10 10
   :header-rows: 1
 
   * - Services
@@ -92,7 +92,9 @@ Infrastruktur IPs
   * - **Prism Central**
     - 10.136.227.39
     - 10.136.228.39
-
+  * - **Active Directory**
+    - 10.136.227.41
+    - 10.136.228.41
 
 
 .. list-table::
