@@ -83,9 +83,12 @@ Infrastruktur IPs
   * - Services
     - Bootcamp Cluster A
     - Bootcamp Cluster B
-  * - **Cluster vIP**
+  * - **Cluster virtual IP**
     - 10.136.227.37
     - 10.136.228.37
+  * - **iSCSI Data Services IP**
+    - 10.136.227.38
+    - 10.136.228.38
 
 
 
