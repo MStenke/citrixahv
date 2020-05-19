@@ -78,7 +78,7 @@ Infrastruktur IPs
    :widths: 33 33 33
    :header-rows: 1
 
-   * - Services
+  * - Services
     - Bootcamp Cluster A
     - Bootcamp Cluster B
   * - **Cluster virtual IP**
