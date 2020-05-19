@@ -45,6 +45,7 @@ Infrastruktur IPs
      - 10.136.227.28
      - 10.136.227.36
 
+
 **Bootcamp Cluster B**
 
 .. list-table::
@@ -74,10 +75,10 @@ Infrastruktur IPs
 
 
 .. list-table::
-  :widths: 25 25 25
-  :header-rows: 1
+   :widths: 33 33 33
+   :header-rows: 1
 
-  * - Services
+   * - Services
     - Bootcamp Cluster A
     - Bootcamp Cluster B
   * - **Cluster virtual IP**
@@ -93,9 +94,6 @@ Infrastruktur IPs
     - 10.136.227.41
 	- 10.136.228.39
 
-
-Zugangsdaten
-++++++++++++
 
 Die folgende Tabelle führt die standardmäßig hinterlegten Zugangsdaten für die Umgebung auf (falls andere zum Einsatz kommen sollten wird dies gesondert aufgeführt):
 
@@ -210,7 +208,7 @@ Die folgenden virtuellen Netzwerke wurden wie folgt vorkonfiguriert:
      - **Sekundäres** Netzwerk
    * - **VLAN**
      - 0
-     - 2271
+     - 2281
    * - **Netzwerk IP Adresse**
      - 10.136.228.0
      - 10.136.228.128
