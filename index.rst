@@ -25,7 +25,19 @@
   2-citrix/flow_secure_desktops/flow_secure_desktops
   2-citrix/prismops/prismops_capacity_lab_ctx/prismops_capacity_lab
   2-citrix/prismops/prismops_rightsize_ctx_lab/prismops_rightsize_euc_lab
-   
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Optional Nutanix Grundlagen
+  :hidden:
+
+  3-aosahv/lab_nutanix_tech_overview/lab_nutanix_tech_overview
+  3-aosahv/lab_storage_configuration/lab_storage_configuration
+  3-aosahv/lab_network_configuration/lab_network_configuration
+  3-aosahv/lab_deploy_workloads/lab_deploy_workloads
+  3-aosahv/lab_manage_workloads/lab_manage_workloads
+  3-aosahv/lab_data_protection/lab_data_protection
+  
 .. toctree::
   :maxdepth: 2
   :caption: Anhang Labs

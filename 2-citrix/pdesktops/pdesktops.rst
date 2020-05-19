@@ -53,7 +53,7 @@ A single XenDesktop site can contain multiple Delivery Controllers and StoreFron
    - **Name for these resources** - *Initials*\ -Resources
    - Select **Secondary Network**
 
-   .. figure:: images/4b.png
+   .. figure:: images/4.png
 
 Creating the Machine Catalog
 ++++++++++++++++++++++++++++
