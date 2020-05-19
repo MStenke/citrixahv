@@ -77,7 +77,7 @@ Infrastruktur IPs
 **Service IP's**
 
 .. list-table::
-  :widths: 15 10 10
+  :widths: 11 10 10
   :header-rows: 1
 
   * - Services
@@ -95,28 +95,6 @@ Infrastruktur IPs
   * - **Active Directory**
     - 10.136.227.41
     - 10.136.228.41
-
-
-.. list-table::
-   :widths: 30 30 30
-   :header-rows: 1
-
-  * - Services
-    - Bootcamp Cluster A
-    - Bootcamp Cluster B
-  * - **Cluster virtual IP**
-    - 10.136.227.37
-    - 10.136.228.37
-  * - **iSCSI Data Services IP**
-    - 10.136.227.38
-    - 10.136.228.38
-  * - **Prism Central**
-    - 10.136.227.39
-	- 10.136.228.39
-  * - **Active Directory**
-    - 10.136.227.41
-	- 10.136.228.41
-
 
 Die folgende Tabelle führt die standardmäßig hinterlegten Zugangsdaten für die Umgebung auf (falls andere zum Einsatz kommen sollten wird dies gesondert aufgeführt):
 
