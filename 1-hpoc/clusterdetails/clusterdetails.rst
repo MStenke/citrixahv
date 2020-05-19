@@ -77,6 +77,19 @@ Infrastruktur IPs
 **Service IP's**
 
 .. list-table::
+  :widths: 20 20 10
+  :header-rows: 1
+
+  * - Services
+    - Bootcamp Cluster A
+    - Bootcamp Cluster B
+  * - **Cluster vIP**
+    - 10.136.227.37
+    - 10.136.228.37
+
+
+
+.. list-table::
    :widths: 30 30 30
    :header-rows: 1
 
