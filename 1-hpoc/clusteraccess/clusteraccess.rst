@@ -11,10 +11,10 @@ Die Lab Umgebung stehen physisch in der USA. Um auf diese zugreifen zu können w
 
 Benutzerkennung auswählen
 +++++++++++++++++++++++++
-Die Lab-Zugangsdaten können Sie hier einsehen: https://docs.google.com/spreadsheets/d/1asRAkBsFX0j_fvTCDiDsP-N1B7yQBbiGSwYZz8SqbNw/edit#gid=0
+Es stehen für den Workshop zwei getrennte Umgebungen mit jeweils 20 Nutzer zur Verfügung. Um einen reibungslosen Ablauf zu ermöglichen erhält jeder Teilnehmer eine eigene Kennung um sich mit der Umgebung zu verbinden. Die Lab-Zugangsdaten können Sie hier einsehen: https://docs.google.com/spreadsheets/d/1asRAkBsFX0j_fvTCDiDsP-N1B7yQBbiGSwYZz8SqbNw/edit#gid=0
 
 .. note::
-   Bitte hinterlegen Sie dort kurz welche Benutzerkennung Sie jeweils verwenden, sodass diese nicht doppelt verwendet wird und Sie sich gegenseitig aus der Session werfen.
+   Bitte hinterlegen Sie dort kurz welche Benutzerkennung in welcher Umgebung Sie jeweils verwenden, sodass diese nicht doppelt verwendet wird und Sie sich gegenseitig aus der Umgebung werfen.
 
 Frame VDI Client
 ++++++++++++++++
@@ -64,7 +64,7 @@ Pulse Secure VPN Client
 5.	Lokal installierten Client öffnen und eine neue Verbindung mit folgenden Parametern hinzufügen:
 
 - **Type**: "Policy Secure (UAC) or Connection Server (VPN)""
-- **Name**: Nutanix HPOC VPN 
+- **Name**: Nutanix VPN 
 - **Server URL**: https://xlv-blr.xlabs.nutanix.com
 
 6.	Sobald der Client eingerichtet ist mit den bereitgestellten Zugangsdaten verbinden.

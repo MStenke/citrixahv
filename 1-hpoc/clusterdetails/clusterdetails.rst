@@ -18,6 +18,8 @@ Cluster Hardware Details
 Infrastruktur IPs
 +++++++++++++++++
 
+**Bootcamp Cluster A**
+
 .. list-table::
    :widths: 10 10 10 10
    :header-rows: 1
@@ -27,38 +29,68 @@ Infrastruktur IPs
      - Hypervisors
      - IPMI
    * - **Position A**
-     - 10.42.58.29
-     - 10.42.58.25
-     - 10.42.58.33
+     - 10.136.227.29
+     - 10.136.227.25
+     - 10.136.227.33
    * - **Position B**
-     - 10.42.58.30
-     - 10.42.58.26
-     - 10.42.58.34
+     - 10.136.227.30
+     - 10.136.227.26
+     - 10.136.227.34
    * - **Position C**
-     - 10.42.58.31
-     - 10.42.58.27
-     - 10.42.58.35
+     - 10.136.227.31
+     - 10.136.227.27
+     - 10.136.227.35
    * - **Position D**
-     - 10.42.58.32
-     - 10.42.58.28
-     - 10.42.58.36
+     - 10.136.227.32
+     - 10.136.227.28
+     - 10.136.227.36
 
+**Bootcamp Cluster B**
 
 .. list-table::
-  :widths: 20 20
+   :widths: 10 10 10 10
+   :header-rows: 1
+
+   * - Nodes
+     - CVMs
+     - Hypervisors
+     - IPMI
+   * - **Position A**
+     - 10.136.228.29
+     - 10.136.228.25
+     - 10.136.228.33
+   * - **Position B**
+     - 10.136.228.30
+     - 10.136.228.26
+     - 10.136.228.34
+   * - **Position C**
+     - 10.136.228.31
+     - 10.136.228.27
+     - 10.136.228.35
+   * - **Position D**
+     - 10.136.228.32
+     - 10.136.228.28
+     - 10.136.228.36
+
+.. list-table::
+  :widths: 20 20 20
   :header-rows: 1
 
   * - Services
-    - IP-Adressen
+    - Bootcamp Cluster A
+    - Bootcamp Cluster B
   * - **Cluster virtual IP**
-    - 10.42.58.37
+    - 10.136.227.37
+    - 10.136.228.37
   * - **iSCSI Data Services IP**
-    - 10.42.58.38
+    - 10.136.227.38
+    - 10.136.228.38
   * - **Prism Central**
-    - 10.42.58.39
+    - 10.136.227.39
+	- 10.136.228.39
   * - **Active Directory**
-    - 10.42.58.41
-
+    - 10.136.227.41
+	- 10.136.228.39
 
 Zugangsdaten
 ++++++++++++
@@ -95,7 +127,7 @@ Die folgende Tabelle führt die standardmäßig hinterlegten Zugangsdaten für d
     - nutanix/4u
 
 
-Darüber hinaus besitzt der Cluster eine dedizierte Domain-Controller-VM, welche die Active-Directory-Services für die **NTNXLAB.local** Domain bereitstellt. Die Domain wurde mit den folgenden Nutzern und Gruppen vorkonfiguriert:
+Darüber hinaus besitzt jeder Cluster eine dedizierte Domain-Controller-VM, welche die Active-Directory-Services für die jeweilige **NTNXLAB.local** Domain bereitstellt. Die beiden Domain's wurde mit den folgenden Nutzern und Gruppen vorkonfiguriert:
 
 .. list-table::
   :widths: 20 20 10
@@ -131,6 +163,8 @@ Netzwerk
 
 Die folgenden virtuellen Netzwerke wurden wie folgt vorkonfiguriert:
 
+**Bootcamp Cluster A**
+
 .. list-table::
    :widths: 33 33 33
    :header-rows: 1
@@ -140,25 +174,59 @@ Die folgenden virtuellen Netzwerke wurden wie folgt vorkonfiguriert:
      - **Sekundäres** Netzwerk
    * - **VLAN**
      - 0
-     - 581
+     - 2271
    * - **Netzwerk IP Adresse**
-     - 10.42.58.0
-     - 10.42.58.128
+     - 10.136.227.0
+     - 10.136.227.128
    * - **Netzmaske**
      - 255.255.255.128 (/25)
      - 255.255.255.128 (/25)
    * - **Default Gateway**
-     - 10.42.58.1
-     - 10.42.58.129
+     - 10.136.227.1
+     - 10.136.227.129
    * - **IP Address Management (IPAM)**
      - Aktiviert
      - Aktiviert
    * - **DHCP Pool**
-     - 10.42.58.50  - 125
-     - 10.42.58.132 - 253
+     - 10.136.227.50  - 125
+     - 10.136.227.132 - 253
    * - **Domain**
      - NTNXLAB.local
      - NTNXLAB.local
    * - **DNS**
-     - 10.42.58.41 (DC VM)
-     - 10.42.58.41 (DC VM)
+     - 10.136.227.41 (DC VM)
+     - 10.136.227.41 (DC VM)
+
+**Bootcamp Cluster B**
+
+.. list-table::
+   :widths: 33 33 33
+   :header-rows: 1
+
+   * -
+     - **Primäres** Netzwerk
+     - **Sekundäres** Netzwerk
+   * - **VLAN**
+     - 0
+     - 2271
+   * - **Netzwerk IP Adresse**
+     - 10.136.228.0
+     - 10.136.228.128
+   * - **Netzmaske**
+     - 255.255.255.128 (/25)
+     - 255.255.255.128 (/25)
+   * - **Default Gateway**
+     - 10.136.228.1
+     - 10.136.228.129
+   * - **IP Address Management (IPAM)**
+     - Aktiviert
+     - Aktiviert
+   * - **DHCP Pool**
+     - 10.136.228.50  - 125
+     - 10.136.228.132 - 253
+   * - **Domain**
+     - NTNXLAB.local
+     - NTNXLAB.local
+   * - **DNS**
+     - 10.136.228.41 (DC VM)
+     - 10.136.228.41 (DC VM)
