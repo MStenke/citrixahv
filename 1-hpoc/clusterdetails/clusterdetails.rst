@@ -72,8 +72,9 @@ Infrastruktur IPs
      - 10.136.228.28
      - 10.136.228.36
 
+
 .. list-table::
-  :widths: 22 22 22
+  :widths: 25 25 25
   :header-rows: 1
 
   * - Services
@@ -91,6 +92,7 @@ Infrastruktur IPs
   * - **Active Directory**
     - 10.136.227.41
 	- 10.136.228.39
+
 
 Zugangsdaten
 ++++++++++++
