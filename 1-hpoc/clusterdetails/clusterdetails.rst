@@ -77,7 +77,7 @@ Infrastruktur IPs
 **Service IP's**
 
 .. list-table::
-  :widths: 20 20 10
+  :widths: 20 10 10
   :header-rows: 1
 
   * - Services
@@ -89,6 +89,9 @@ Infrastruktur IPs
   * - **iSCSI Data Services IP**
     - 10.136.227.38
     - 10.136.228.38
+  * - **Prism Central**
+    - 10.136.227.39
+    - 10.136.228.39
 
 
 
