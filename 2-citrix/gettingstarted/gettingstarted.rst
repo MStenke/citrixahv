@@ -21,7 +21,7 @@ Welcome to the End User Computing bootcamp featuring Citrix Apps & Desktops. Thi
 
    * - Bootcamp Cluster A
      - Bootcamp Cluster B
-   * - https://10.136.228.39:9440/
+   * - https://10.136.227.39:9440/
      - https://10.136.228.39:9440/
 
 
