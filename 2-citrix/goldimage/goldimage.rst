@@ -167,7 +167,7 @@ Running Citrix Optimizer
 Running VMware OS Optimization Tool
 +++++++++++++++++++++++++++++++++++
 
-#. Within the VM console, download http://10.42.194.11/workshop_staging/VMwareOSOptimizationTool.zip and extract to a directory.
+#. Within the VM console, download http://10.136.239.13/workshop_staging/VMwareOSOptimizationTool.zip and extract to a directory.
 
 #. Right-click **VMwareOSOptimizationTool.exe** and select **Run as Administrator**.
 
