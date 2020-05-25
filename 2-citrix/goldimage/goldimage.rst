@@ -142,7 +142,7 @@ The Virtual Delivery Agent (VDA) is a collection of drivers and services install
 Running Citrix Optimizer
 ++++++++++++++++++++++++
 
-#. Within the VM console, download http://10.42.194.11/workshop_staging/CitrixOptimizer.zip and extract to a directory.
+#. Within the VM console, download http://10.136.239.13/workshop_staging/CitrixOptimizer.zip and extract to a directory.
 
 #. Right-click **CitrixOptimizer.exe** and select **Run as Administrator**.
 
